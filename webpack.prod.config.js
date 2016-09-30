@@ -56,6 +56,9 @@ module.exports = {
       mangle: true,
       minimize: true
     }),
-    new WEBPACK.optimize.AggressiveMergingPlugin()
+    new WEBPACK.optimize.AggressiveMergingPlugin(),
+    new WEBPACK.DefinePlugin({
+      'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV || 'production')
+    })
   ],
 };
