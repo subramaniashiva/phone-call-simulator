@@ -1,0 +1,11 @@
+@import "../constants";
+.display {
+	background: $secondary-color;
+  color: $text-primary-color;
+  font-weight: bold;
+  text-align: center;
+  padding: 2em 0.5em;
+  font-size: 1.5em;
+  border: 1px solid $primary-color;
+  word-break: break-all;
+}

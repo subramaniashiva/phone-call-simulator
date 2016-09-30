@@ -1,0 +1,53 @@
+{
+  "name": "star-wars",
+  "version": "1.0.0",
+  "description": "Demo application in react+redux+webpack",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot --inline --config ./webpack.dev.config.js",
+    "lint": "eslint . --ext .js --cache",
+    "clean": "rm -rf dist/*",
+    "test": "mocha --compilers js:babel-register --recursive --require test/config.js",
+    "coverage": "nyc mocha --compilers js:babel-register --recursive --require test/config.js ",
+    "build": "npm run clean && npm run lint && npm run test && NODE_ENV=production webpack --config ./webpack.prod.config.js --progress --colors"
+  },
+  "author": "Siva",
+  "license": "ISC",
+  "devDependencies": {
+    "app-module-path": "^1.1.0",
+    "babel-core": "^6.14.0",
+    "babel-eslint": "^6.1.2",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-2": "^6.13.0",
+    "babel-register": "^6.14.0",
+    "chai": "^3.5.0",
+    "css-loader": "^0.25.0",
+    "eslint": "^3.5.0",
+    "eslint-config-airbnb": "^11.1.0",
+    "eslint-loader": "^1.5.0",
+    "eslint-plugin-babel": "^3.3.0",
+    "eslint-plugin-import": "^1.15.0",
+    "eslint-plugin-jsx-a11y": "^2.2.2",
+    "eslint-plugin-react": "^6.3.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.0.2",
+    "node-sass": "^3.9.3",
+    "nyc": "^8.1.0",
+    "react-hot-loader": "^3.0.0-beta.3",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.1"
+  },
+  "dependencies": {
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "react-redux": "^4.4.5",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.1.0"
+  }
+}

@@ -1,0 +1,29 @@
+@import "../constants";
+
+.call-screen {
+  max-width: $container-width;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid $primary-color;
+  background: $primary-color;
+}
+.call-screen-display {
+  border: none;
+  padding-top: 0;
+}
+.call-screen-hang {
+  max-width: $container-width;
+  margin: 0 auto;
+  text-align: center;
+  padding: 3em;
+  min-height: 12em;
+}
+.hang-btn {
+  background: #D4461C;
+  color: #FFF;
+  width: 7.625em;
+  height: 2.188em;
+  border: none;
+  font-size: 1em;
+  border-radius: 3px;
+}

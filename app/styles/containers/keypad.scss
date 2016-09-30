@@ -1,0 +1,34 @@
+@import "../constants";
+
+.keypad {
+  margin: 0 auto;
+  background: $primary-color;
+  max-width: $container-width;
+}
+.keypad-row {
+  justify-content: center;
+  max-width: $container-width;
+  margin: 0 auto;
+}
+.keypad-btn {
+  width: 33%;
+}
+.keypad-display {
+  max-width: $container-width;
+  margin: 0 auto;
+}
+.keypad-dial {
+  max-width: $container-width;
+  margin: 0 auto;
+  text-align: center;
+  padding: 3em;
+}
+.dial-btn {
+  background: #39AD57;
+  color: #FFF;
+  width: 7.625em;
+  height: 2.188em;
+  border: none;
+  font-size: 1em;
+  border-radius: 3px;
+}

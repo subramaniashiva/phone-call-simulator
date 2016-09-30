@@ -1,0 +1,14 @@
+/* 
+   This is a Sass partial
+   File used to set base styles for the elements in the page
+*/
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff;
+  color: $text-primary-color;
+  font-family: $primary-font, sans-serif;
+}

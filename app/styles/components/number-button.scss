@@ -1,0 +1,14 @@
+@import "../constants";
+
+.number-button {
+  color: $text-secondary-color;
+  background: $tertiary-color;
+  padding: 1em;
+  border: 1px solid $primary-color;
+  font-size: 1em;
+  &:active, &:focus {
+    border: none;
+    background: $secondary-color;
+    outline: none;
+  }
+}
