@@ -1,7 +1,7 @@
 Phone Dial Simulator
 ===================
 
-This application is simulates the phone dialling functionality. User can dial any number and it connects to the number (only simulation). The user can either hang up the call or the call gets disconnected after 10 seconds.
+This application is simulates the phone dialling functionality. User can dial any number and it connects to the number (only simulation). The user can either hang up the call or the call gets disconnected after 10 seconds. You can view the app live [here](https://subramaniashiva.github.io/phone-call-simulator/dist/index.html)
 
 Setup
 -----
